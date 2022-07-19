@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 #bg {
