@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿<!--
+Создано компаний Sgearsoft (https://sgearsoft.github.io) в лице главы отдела Веб LIKEJS (@LIKEJS#5430 в Discord) для компании LOK1game.
+Использование кода или его участков для своих целей без письменного разрешения компании Sgearsoft запрещено.
+Удаление этого комментария запрещено.
+-->
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -20,8 +25,8 @@
             }
             body {
                 margin:0;
-                background-color: #2e2735;
-                background-image: url("bg.webp");
+                background-color: #151316;
+                /*background-image: url("bg.webp");*/
             }
             h1 {
                 position: absolute;
@@ -59,7 +64,6 @@
                 width: 30vw;
                 height: 100%;
                 vertical-align: middle;
-                item-align: center;
             }
             .bl_cont {
                 font-size: 30px;
@@ -75,10 +79,56 @@
                 right: 0;
                 text-align: center;
             }
+            .prop {
+                color: white;
+                font-size: 75px;
+                position: absolute;
+                top: 110%;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+                font-weight: bold;
+            }
+            .goal {
+                color: white;
+                font-size: 48px;
+                position: absolute;
+                top: calc(115% + 75px);
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+            }
+            .props {
+                color: white;
+                font-size: 24px;
+                position: absolute;
+                top: calc(125% + 75px + 48px);
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+            }
+            .prop_it {
+
+            }
         </style>
     </head>
     <body>
         <img src="bg.webp" id="bg">
+        <script>
+            var width = document.documentElement.clientWidth;
+            var height = document.documentElement.clientHeight;
+            if (width > height){
+                document.getElementById("bg").style.width = "100%";
+            } else {
+                document.getElementById("bg").style.height = "100%";
+            }
+        </script>
         <h1>LOK1game</h1>
         <h5>Игры от геймеров, что любят свою работу</h5>
         <div class="blur">
@@ -91,5 +141,12 @@
             </table>
         </div>
         <p class="join"> Не упускайте возмоожность стать частью нашей команды </p>
+        <p class="prop"> О наших качествах </p>
+        <p class="goal"> Наша цель &#151; интересные и захватывающие игры </p>
+        <div class="props">
+            <span class="prop_it">
+                <!--<img src="">-->
+            </span>
+        </div>
     </body>
 </html>
