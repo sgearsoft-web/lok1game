@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LOK1game</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+            * {
+                font-family: 'Amatic SC', cursive;
+                color: white;
+            }
+            #bg {
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+                width: 100%;
+            }
+            body {
+                margin:0;
+                background-color: #2e2735;
+                background-image: url("bg.webp");
+            }
+            h1 {
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+                margin-top: 10%;
+                color: white;
+                font-size: 100px;
+            }
+            h5 {
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+                margin-top: calc(12% + 100px);
+                color: white;
+                font-size: 48px;
+            }
+            .blur {
+                position:absolute;
+                top: 50%;
+                left:5%;
+                right:5%;
+                width:90%;
+                min-height: 100px;
+                text-align: center;
+                backdrop-filter: blur(50px);
+            }
+            td {
+                width: 30vw;
+                height: 100%;
+                vertical-align: middle;
+                item-align: center;
+            }
+            .bl_cont {
+                font-size: 30px;
+            }
+            .join {
+                color: white;
+                font-size: 28px;
+                position: absolute;
+                top: 85%;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="bg.webp" id="bg">
+        <h1>LOK1game</h1>
+        <h5>Игры от геймеров, что любят свою работу</h5>
+        <div class="blur">
+            <table>
+                <tr>
+                    <td><img src="calendar.svg" width="15%"><br><p class="bl_cont">Все игры выходят в строго отведенный срок</p></td>
+                    <td><img src="clock.svg" width="15%"><br><p class="bl_cont">Быстрое и качественное прототипирование</p></td>
+                    <td><img src="place.svg" width="15%"><br><p class="bl_cont">Санкт-Петербург, пр.&nbsp;Космонавтов, 65, к. 2, Пространство &#171;Stack&#187;</p></td>
+                </tr>
+            </table>
+        </div>
+        <p class="join"> Не упускайте возмоожность стать частью нашей команды </p>
+    </body>
+</html>
