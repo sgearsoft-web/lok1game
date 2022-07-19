@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+* {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+}
+#bg {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+body {
+    margin:0;
+    background-color: #151316;
+    /*background-image: url("bg.webp");*/
+}
+h1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    font-size: 100px;
+}
+h5 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: calc(12% + 100px);
+    color: white;
+    font-size: 48px;
+}
+.blur {
+    position:absolute;
+    top: 50%;
+    left:5%;
+    right:5%;
+    width:90%;
+    min-height: 100px;
+    text-align: center;
+    backdrop-filter: blur(50px);
+}
+td {
+    width: 30vw;
+    height: 100%;
+    vertical-align: middle;
+}
+.bl_cont {
+    font-size: 30px;
+}
+.join {
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    top: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.prop {
+    color: white;
+    font-size: 75px;
+    position: absolute;
+    top: 110%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.goal {
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    top: calc(115% + 75px);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.props {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: calc(125% + 75px + 48px);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.prop_it {
+
+}
